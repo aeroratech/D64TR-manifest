@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git@github.com:aeroratech" name="aeroratech"/>
+  <!-- environement -->
+  <project remote="aeroratech" name="docker" path="docker" revision="829adebf0565722c47d70a69314261304d22e5bd" upstream="refs/heads/main"/>
+  <!-- system -->
+  <project remote="aeroratech" name="msm-5.4" path="src/kernel/msm-5.4" revision="ff0128cb9a042119913117129d73a303777d4271" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="display-drivers" path="src/kernel/msm-5.4/techpack/display" revision="08cae77b0041b3f0d1f301bca52edde4c7f2880d" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="weston" path="src/display/weston" revision="cbbb479b3cb483fbe20b2b32c28ee609af244b86" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="uvc-gadget" path="src/vendor/aeroratech/uvc-gadget" revision="9b838cec7df2c029526e8076145c909765ddd302" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="platform-system-core" path="src/system/core" revision="2b4271fa142440f2df8164b2b5a5b14ef2b0fa37" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="platform-external-wpa_supplicant_8" path="src/external/wpa_supplicant_8" revision="55784fcbdb453b6b11e67a85536f33065a9637bc" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="qcom-proprietary-sectools" path="src/vendor/qcom/proprietary/sectools" revision="ce87be7ffa04dc14001bc116a32cf1e59c3e8b28" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="build-scripts" path="build-scripts" revision="c342e0c62c12beb04ed3853ace7c0429d5508483" upstream="refs/heads/D64TR"/>
+  <project remote="aeroratech" name="qti-conf" path="poky/qti-conf" revision="eccc726615f2c323ac658b66072c01df4b30900e" upstream="refs/heads/D64TR">
+    <linkfile dest="setup-environment" src="set_bb_env.sh"/>
+  </project>
+  <!-- yocto meta -->
+  <project remote="aeroratech" name="meta-aeroratech-bsp" path="poky/meta-aeroratech-bsp" revision="5b5a122c0b55265d3537161205f5b43379342e34" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="meta-aeroratech-display" path="poky/meta-aeroratech-display" revision="a6fd5ed2aebdeb8ff1112d626f3a7469bdf1802d" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="meta-aeroratech-mm" path="poky/meta-aeroratech-mm" revision="e6e68c7cce00e510aab88b00430bd3caeb2c1920" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="meta-qti-audio" path="poky/meta-qti-audio" revision="e50f02a7317ee5e4b1b9c9fae30024f46b0045b7" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="meta-qti-bsp" path="poky/meta-qti-bsp" revision="afb13bc41902e865cbed8dc60d08952d930588e6" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="meta-qti-ml" path="poky/meta-qti-ml" revision="1056f961b33e95ee2696d68cd67bc657c5f52e09" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="meta-qti-ubuntu" path="poky/meta-qti-ubuntu" revision="4777e5129e7edcb6638cb5f3511c4311cd15b533" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="meta-qti-camera-prop" path="poky/meta-qti-camera-prop" revision="977237f2b8c946c62c27f1f01b67c7ce5cd02e02" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="meta-aeroratech-ml" path="poky/meta-aeroratech-ml" revision="d03eb11918079b51190a273db1a7fd12d48e284d" upstream="refs/heads/main"/>
+  <!-- camera -->
+  <project remote="aeroratech" name="qcom-cam" path="src/vendor/aeroratech/qcom-cam" revision="d806fbb07460702334dcd9a29ab8b2049c292ebe" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="MAVCam" path="src/vendor/aeroratech/mav-cam" revision="41f9114c24a71609427b4fd745d97bd8a5c71b03" upstream="refs/heads/D64TR"/>
+  <project remote="aeroratech" name="MAVSDK" path="src/vendor/aeroratech/MAVSDK" revision="cb490e325191d563c47225cc18da30fe4aebe6c9" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="ir-cam" path="src/vendor/aeroratech/ir-cam" revision="501337185da2613a2364dc12e9dec1813230ca6d" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="boson-sdk" path="src/vendor/aeroratech/boson-sdk" revision="12662670a6900692e70e9922e76163ba8c157ea3" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="geer-usbsdk" path="src/vendor/aeroratech/geer-usbsdk" revision="2dd4cdb6e18c3b5e92fd199d61660d49bf15a382" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="render-bridge" path="src/vendor/aeroratech/render-bridge" revision="804f91e00e1b9f900d4bb6c760df227a5d9ad26c" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="storage-manager" path="src/vendor/aeroratech/storage-manager" revision="e75d58f74ca7e9b404366d013af6e2541674722b" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="exif-writer" path="src/vendor/aeroratech/exif-writer" revision="57a8bf6411066942bba266a96f9dacac2585d833" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="timezone-writer" path="src/vendor/aeroratech/timezone-writer" revision="b652c30058cb109dfbc9c9ecc915a8dc7e2a1c44" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="dng-sdk" path="src/vendor/aeroratech/dng-sdk" revision="f1c6b87fa1610c29ba48246efc21c6e5e285e39d" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="XMP-Toolkit-SDK" path="src/vendor/aeroratech/XMP-Toolkit-SDK" revision="cb7f7d06b44b9f3cc88980cb99e9a8c0ddf49bd7" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="chi-cdk" path="src/vendor/qcom/proprietary/chi-cdk" revision="b3492c047e3e512212b4fec4d9ae2b411957b8e1" upstream="refs/heads/main"/>
+  <!-- gimbal -->
+  <project remote="aeroratech" name="gimbal-server" path="src/vendor/aeroratech/gimbal-server" revision="9d9069c53e89149221cc9d42106179e4b61ba97e" upstream="refs/heads/D64TR"/>
+  <project remote="aeroratech" name="gimbal-update" path="src/vendor/aeroratech/gimbal-update" revision="3ef5b89f8bf0ff904029235685c83cb40801e59a" upstream="refs/heads/main"/>
+  <!-- tools -->
+  <project remote="aeroratech" name="aerora-tools" path="src/vendor/aeroratech/aerora-tools" revision="796501cab1b4b86810673d7ca0d45c28556690b3" upstream="refs/heads/main"/>
+  <!-- ai -->
+  <project remote="aeroratech" name="object-tracking" path="src/vendor/aeroratech/object-tracking" revision="9d1303c7b31e3615d738e698c935b078434b181e" upstream="refs/heads/yolov8"/>
+  <project remote="aeroratech" name="object-detection" path="src/vendor/aeroratech/object-detection" revision="e7cdbcf7e77293df1d5ca864d356cefa2295ec52" upstream="refs/heads/yolov8"/>
+  <!-- common library -->
+  <include name="LU.UM.3.3.1.r1-Common.xml" />
+</manifest>
