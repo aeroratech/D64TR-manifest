@@ -30,15 +30,12 @@
   <project remote="aeroratech" name="MAVCam" path="src/vendor/aeroratech/mav-cam" revision="bdab1dc29ec3b92b48b222c9355d28d05938b73c" upstream="refs/heads/main"/>
   <project remote="aeroratech" name="MAVSDK" path="src/vendor/aeroratech/MAVSDK" revision="cb490e325191d563c47225cc18da30fe4aebe6c9" upstream="refs/heads/main"/>
   <project remote="aeroratech" name="ir-cam" path="src/vendor/aeroratech/ir-cam" revision="501337185da2613a2364dc12e9dec1813230ca6d" upstream="refs/heads/main"/>
-  <project remote="aeroratech" name="boson-sdk" path="src/vendor/aeroratech/boson-sdk" revision="12662670a6900692e70e9922e76163ba8c157ea3" upstream="refs/heads/main"/>
-  <project remote="aeroratech" name="geer-usbsdk" path="src/vendor/aeroratech/geer-usbsdk" revision="2dd4cdb6e18c3b5e92fd199d61660d49bf15a382" upstream="refs/heads/main"/>
   <project remote="aeroratech" name="render-bridge" path="src/vendor/aeroratech/render-bridge" revision="804f91e00e1b9f900d4bb6c760df227a5d9ad26c" upstream="refs/heads/main"/>
   <project remote="aeroratech" name="storage-manager" path="src/vendor/aeroratech/storage-manager" revision="e75d58f74ca7e9b404366d013af6e2541674722b" upstream="refs/heads/main"/>
   <project remote="aeroratech" name="exif-writer" path="src/vendor/aeroratech/exif-writer" revision="57a8bf6411066942bba266a96f9dacac2585d833" upstream="refs/heads/main"/>
   <project remote="aeroratech" name="timezone-writer" path="src/vendor/aeroratech/timezone-writer" revision="b652c30058cb109dfbc9c9ecc915a8dc7e2a1c44" upstream="refs/heads/main"/>
   <project remote="aeroratech" name="dng-sdk" path="src/vendor/aeroratech/dng-sdk" revision="f1c6b87fa1610c29ba48246efc21c6e5e285e39d" upstream="refs/heads/main"/>
   <project remote="aeroratech" name="XMP-Toolkit-SDK" path="src/vendor/aeroratech/XMP-Toolkit-SDK" revision="cb7f7d06b44b9f3cc88980cb99e9a8c0ddf49bd7" upstream="refs/heads/main"/>
-  <project remote="aeroratech" name="chi-cdk" path="src/vendor/qcom/proprietary/chi-cdk" revision="b3492c047e3e512212b4fec4d9ae2b411957b8e1" upstream="refs/heads/main"/>
   <!-- gimbal -->
   <project remote="aeroratech" name="gimbal-server" path="src/vendor/aeroratech/gimbal-server" revision="9d9069c53e89149221cc9d42106179e4b61ba97e" upstream="refs/heads/D64TR"/>
   <project remote="aeroratech" name="gimbal-update" path="src/vendor/aeroratech/gimbal-update" revision="3ef5b89f8bf0ff904029235685c83cb40801e59a" upstream="refs/heads/main"/>
