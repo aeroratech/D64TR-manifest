@@ -27,7 +27,7 @@
   <project remote="aeroratech" name="meta-aeroratech-ml" path="poky/meta-aeroratech-ml" revision="d03eb11918079b51190a273db1a7fd12d48e284d" upstream="refs/heads/main"/>
   <!-- camera -->
   <project remote="aeroratech" name="qcom-cam" path="src/vendor/aeroratech/qcom-cam" revision="39c165ecb1c1ee88c33f43916d24bcd4c06fa909" upstream="refs/heads/main"/>
-  <project remote="aeroratech" name="MAVCam" path="src/vendor/aeroratech/mav-cam" revision="bdab1dc29ec3b92b48b222c9355d28d05938b73c" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="MAVCam" path="src/vendor/aeroratech/mav-cam" revision="f26155a305c4c7825fc2281ef994c57561ce85b4" upstream="refs/heads/main"/>
   <project remote="aeroratech" name="MAVSDK" path="src/vendor/aeroratech/MAVSDK" revision="cb490e325191d563c47225cc18da30fe4aebe6c9" upstream="refs/heads/main"/>
   <project remote="aeroratech" name="ir-cam" path="src/vendor/aeroratech/ir-cam" revision="501337185da2613a2364dc12e9dec1813230ca6d" upstream="refs/heads/main"/>
   <project remote="aeroratech" name="boson-sdk" path="src/vendor/aeroratech/boson-sdk" revision="12662670a6900692e70e9922e76163ba8c157ea3" upstream="refs/heads/main"/>
@@ -45,8 +45,8 @@
   <!-- tools -->
   <project remote="aeroratech" name="aerora-tools" path="src/vendor/aeroratech/aerora-tools" revision="796501cab1b4b86810673d7ca0d45c28556690b3" upstream="refs/heads/main"/>
   <!-- ai -->
-  <project remote="aeroratech" name="object-tracking" path="src/vendor/aeroratech/object-tracking" revision="9d1303c7b31e3615d738e698c935b078434b181e" upstream="refs/heads/yolov8"/>
-  <project remote="aeroratech" name="object-detection" path="src/vendor/aeroratech/object-detection" revision="e7cdbcf7e77293df1d5ca864d356cefa2295ec52" upstream="refs/heads/yolov8"/>
+  <project remote="aeroratech" name="object-tracking" path="src/vendor/aeroratech/object-tracking" revision="69d21563b018e59b7381f0ed8a15896e20e72cd8" upstream="refs/heads/main"/>
+  <project remote="aeroratech" name="object-detection" path="src/vendor/aeroratech/object-detection" revision="e7cdbcf7e77293df1d5ca864d356cefa2295ec52" upstream="refs/heads/main"/>
   <!-- common library -->
   <include name="LU.UM.3.3.1.r1-Common.xml" />
 </manifest>
